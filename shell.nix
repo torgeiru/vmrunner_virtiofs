@@ -5,6 +5,7 @@ in
 pkgs.mkShell rec {
     buildInputs = [
       pkgs.qemu
+      pkgs.virtiofsd
     ];
 
     packages = [
