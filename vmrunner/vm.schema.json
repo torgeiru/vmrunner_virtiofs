@@ -47,7 +47,6 @@
     },
 
     "drives" : {
-
       "description" : "Additional virtual hard drives",
       "type" : "array",
       "items" : {
@@ -65,7 +64,6 @@
     },
 
     "net" : {
-
       "description" : "Network devices",
       "type" : "array",
       "items" : {
@@ -79,7 +77,6 @@
         "required" : ["device"]
       }
     },
-
 
     "mem" : {
       "description" : "Amount of memory in megabytes",

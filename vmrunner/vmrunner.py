@@ -56,6 +56,7 @@ if chainloader is None:
 
 if chainloader is not None:
     chainloader = chainloader + "/chainloader"
+    print(f"Found chainloader: {chainloader}")
 
 # Provide a list of VM's with validated specs
 # (One default vm added at the end)
